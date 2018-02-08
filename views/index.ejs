@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TU Mensa Essen</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+        <table>
+            <% for (mensa of mensen) { %>
+                <tr>
+                    <th><%= mensa.title %></th>
+                </tr>
+
+                <% for (meal of mensa.meals) { %>
+                    <tr>
+                        <td>
+                            <%= meal %>
+                        </td>
+                    </tr>
+                <% } %>
+                <tr class='separator'></tr>
+            <% } %>
+        </table>
+    </div>
+  </body>
+</html>

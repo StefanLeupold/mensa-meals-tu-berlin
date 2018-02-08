@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+tr.separator {
+    height: 16px;
+}
+
+th {
+    padding-top: 11px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 10px;
+}
